@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando o conteúdo da aula 06</title>
+    <style>
+        body{
+            background-color:aqua;
+        }
+        h1{
+            font:oblique 20pt Arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Aplicando o Aprendizado</h1>
+    <script>
+        var nome = window.prompt('Qual o seu nome?');
+        var profissão = window.prompt('Qual sua profissão?');
+        var sálario = Number(window.prompt('Informe o seu sálario: '));
+        var novo_Sálario = sálario.toLocaleString(('pt-BR'), {style:'currency', currency: 'BRL'})
+        document.write(`Prazer em te conhecer ${nome.toUpperCase()}`);
+        document.write(`<br>Sua profissão é ${profissão.toUpperCase()}`);
+        if(sálario <= 1500){
+            document.write(`<br>Seu sálario é ${novo_Sálario}. seu sálario é normal`);
+        }else{ 
+            document.write(`<br> Você ganha ${novo_Sálario}.seu sálario é acima da média`)
+        }
+    </script>
+    
+</body>
+</html>
