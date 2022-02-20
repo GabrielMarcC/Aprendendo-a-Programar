@@ -1,0 +1,35 @@
+h1{
+    font: normal 25pt Arial;
+    color: white;
+    text-align: center;
+}
+body{
+    background: black;
+    
+}
+
+section{
+    background: rgb(197, 20, 20);
+    font: normal 15pt Arial;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+div{
+    font: normal 18px Arial;
+    color: white;
+    margin-block-start: 30px;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    font: normal 18pt Arial;
+    color: white;
+}
