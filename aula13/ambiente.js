@@ -6,6 +6,7 @@ var y = 1
     x ++
 }*/
 
+
 do{
     m = y * x
     console.log(x,'x', y,'=',m)
